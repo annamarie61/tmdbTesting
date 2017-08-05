@@ -22,12 +22,6 @@ paramsDict = {}
 baseURL = 'https://api.themoviedb.org'
 apiVersion = '3'
 
-	# # def ___init___():
-	# # 	.paramsDict['api_key'] = api_key()
-	# # 	print(.paramsDict['api_key'])
-	# # 	if not .paramsDict['api_key']:
-	# # 		raise apiKeyError
-
 '''
 getURL return the full url path for a request
 
@@ -58,7 +52,7 @@ def ___request(apikey,method,index,vid,payload=None):
 	("-1",404),
 	("a",404),
 	("5555555555",404),
-	("0",404),
+	("0",404)
 ])
 
 # '''
